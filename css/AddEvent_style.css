@@ -1,0 +1,70 @@
+/* Blue background */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #2f3e9e; /* ✅ Deep blue background */
+    margin: 0;
+    padding: 0;
+}
+
+/* White container for the form */
+.form-container {
+    max-width: 600px;
+    margin: 60px auto;
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #2f3e9e;
+    margin-bottom: 30px;
+}
+
+/* Labels and Inputs */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select,
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    background-color: #2f3e9e;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #1a2b8f;
+}
